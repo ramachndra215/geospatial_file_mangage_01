@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sample Geospatial Dataset</name>
+    <description>Sample dataset containing Polygon, LineString, and Point features for testing</description>
+    <Placemark>
+      <name>Central Park Lake Reserve</name>
+      <description>Urban wetland conservation polygon (~550m x 550m)</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.5900,12.9700,0
+              77.5950,12.9700,0
+              77.5950,12.9750,0
+              77.5900,12.9750,0
+              77.5900,12.9700,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Metro Rail Transit Corridor</name>
+      <description>Rapid transit railway line (~1.2 km)</description>
+      <LineString>
+        <coordinates>
+          77.6000,12.9750,0
+          77.6050,12.9780,0
+          77.6100,12.9800,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Observation Tower Landmark</name>
+      <description>Survey beacon landmark (Point feature)</description>
+      <Point>
+        <coordinates>77.5925,12.9725,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
